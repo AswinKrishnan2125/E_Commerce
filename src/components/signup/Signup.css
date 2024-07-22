@@ -26,5 +26,8 @@
     .signup {
         padding: 1rem 1em 1em 1em;
     }
+    .front-image{
+      display: none;
+    }
   }
   

@@ -81,7 +81,7 @@ function Signup() {
           </MDBCard>
         </MDBCol>
 
-        <MDBCol col='6'>
+        <MDBCol col='6' className='front-image'>
           <img src="https://img.freepik.com/free-vector/online-shopping-banner-mobile-app-templates-concept-flat-design_1150-34863.jpg?size=626&ext=jpg" class="w-100 rounded-4 shadow-4"
             alt="" fluid/>
         </MDBCol>
