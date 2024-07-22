@@ -1,0 +1,11 @@
+.final{
+    height: 100vh;
+    margin-top: 7rem;
+    margin-left: 1rem;
+    color: rgb(10, 238, 79);
+}
+.final button{
+    border:none;
+    outline: none;
+    box-shadow: 0 0 10px rgb(171, 186, 176);
+}

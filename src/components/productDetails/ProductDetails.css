@@ -1,0 +1,22 @@
+.product-detail{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    padding: 2em;
+    /* background-color: aqua; */
+}
+.product-detail img{
+    max-height: 200px; /* Adjust the image height as needed */
+    /* object-fit: cover; Maintain aspect ratio */
+    max-width: 150px;
+    padding-top: 1rem;
+    object-fit: contain;
+}
+
+.product-info{
+    /* background-color: brown; */
+    padding: 1rem;
+}
+.hero{
+    display: flex;
+}

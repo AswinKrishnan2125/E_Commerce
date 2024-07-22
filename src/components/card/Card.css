@@ -1,0 +1,15 @@
+.custom-card {
+    max-width: 250px; /* Adjust the card width as needed */
+    margin: auto; /* Center the card horizontally */
+    align-items: center;
+  }
+  
+  .custom-card-image {
+    max-height: 200px; /* Adjust the image height as needed */
+    /* object-fit: cover; Maintain aspect ratio */
+    max-width: 150px;
+    padding-top: 1rem;
+    object-fit: contain;
+    /* justify-content: center; */
+  }
+  

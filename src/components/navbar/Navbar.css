@@ -1,0 +1,126 @@
+/* Navbar.css */
+.nav {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding-right: 2rem;
+  }
+  
+  .brand h1 {
+    font-size: 2rem; /* Adjust font size for responsiveness */
+    color: #0656ec;
+    margin: 0;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    flex: 1;
+    max-width: 300px; /* Adjust max-width for responsiveness */
+  }
+  
+  .search input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    flex: 1;
+  }
+  
+  .search .fa-magnifying-glass {
+    color: #007bff;
+    margin-left: 5px;
+  }
+  
+  .nav button {
+    background-color: #f0b215;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .nav button:hover {
+    background-color: #0056b3;
+  }
+  
+  .nav .fa-shopping-cart {
+    color: #007bff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .cart {
+    width: 7rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0rem;
+    position: relative;
+  }
+  
+  /* Mobile Responsiveness */
+  /* @media (max-width: 768px) {
+    .nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .search {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .brand h1 {
+      font-size: 1.5rem;
+    }
+  
+    .nav button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .nav .fa-shopping-cart {
+      font-size: 20px;
+    }
+  } */
+  
+  @media (max-width: 495px) {
+    .nav {
+      padding: 5px;
+      padding-bottom: 0;
+      justify-content: space-around;
+    }
+  
+    .brand h1 {
+      font-size: 1.25rem;
+    }
+  
+    .search {
+      max-width: 100%;
+    }
+  
+    .nav button {
+      font-size: 14px;
+      /* display:none; */
+      max-width: 5em;
+    }
+  
+    .nav .fa-shopping-cart {
+      font-size: 18px;
+      display: none;
+    }
+    .cart{
+        width: 100%;
+    }
+  }
+  
