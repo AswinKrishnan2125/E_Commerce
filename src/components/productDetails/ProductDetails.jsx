@@ -12,7 +12,7 @@ function ProductDetails() {
     const { productId } = useParams();
     const [product, setProduct] = useState(null);
     const [isAddedToCart, setIsAddedToCart] = useState(false);
-    const navigate=useNavigate();
+    const navigate = useNavigate();
     const handleClick = () => {
         setIsAddedToCart(true);
     }
@@ -42,23 +42,23 @@ function ProductDetails() {
             <Navbar />
             <div className="hero">
 
-            <img src={product.image} alt={product.Name} className="product-image" />
-            <div className="product-info">
-                <h3>{product.Name}</h3>
-                {/* <p>{product.description}</p> */}
-                <p>Price: ${product.price}</p>
-                <p> {product.ram}</p>
-                <p>{product.cam}</p>
-                <p>{product.bat}</p>
-                
-                <MDBBtn color="primary" onClick={handleClick} disabled={isAddedToCart}>
+                <img src={product.image} alt={product.Name} className="product-image" />
+                <div className="product-info">
+                    <h3>{product.Name}</h3>
+                    {/* <p>{product.description}</p> */}
+                    <p>Price: ${product.price}</p>
+                    <p> {product.ram}</p>
+                    <p>{product.cam}</p>
+                    <p>{product.bat}</p>
+
+                    <MDBBtn color="primary" onClick={handleClick} disabled={isAddedToCart}>
                         {isAddedToCart ? 'Added to Cart' : 'Add to Cart'}
                     </MDBBtn><MDBBtn color="success" onClick={toCart}>Buy Now</MDBBtn>
-            </div>
+                </div>
             </div>
             <Footer />
         </div>
-        
+
     );
 }
 

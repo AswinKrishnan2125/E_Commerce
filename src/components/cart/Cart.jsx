@@ -71,7 +71,7 @@ import Navbar from "../navbar/Navbar";
   
     return (
       <div className="cart">
-        <Navbar />
+        {/* <Navbar /> */}
         <section className="h-100 h-custom" style={{ backgroundColor: "#eee" }}>
           <MDBContainer className="py-5 h-100">
             <MDBRow className="justify-content-center align-items-center h-100">
@@ -98,7 +98,7 @@ import Navbar from "../navbar/Navbar";
                                     alt="Shopping item" />
                                 </div>
                                 <div className="ms-3">
-                                  <MDBTypography tag="h5">
+                                  <MDBTypography tag="h5" className="name">
                                     {product.Name}
                                   </MDBTypography>
                                   <p className="small mb-0">{product.ram}</p>

@@ -1,3 +1,19 @@
 .cart{
     width: 100vw;
+    padding-top: 0rem;
+}
+
+@media(max-width: 400px){
+    .cart{
+        padding-top: 10rem;
+    }
+    .ms-3{
+        font-size: 0.9rem;
+    }
+    .name{
+        font-size: 1rem;
+    }
+    .mb-0{
+        font-size: 1rem;
+    }
 }
