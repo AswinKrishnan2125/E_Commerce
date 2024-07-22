@@ -6,6 +6,7 @@ import { MDBBtn } from 'mdb-react-ui-kit';
 // import './ProductDetail.css'; // Import custom CSS for styling
 import Footer from '../footer/Footer';
 import './ProductDetails.css'
+import Navbar from '../navbar/Navbar';
 
 function ProductDetails() {
     const { productId } = useParams();
@@ -38,6 +39,7 @@ function ProductDetails() {
 
     return (
         <div className="product-detail">
+            <Navbar />
             <div className="hero">
 
             <img src={product.image} alt={product.Name} className="product-image" />

@@ -4,7 +4,7 @@ import './App.css'
 import Signin from './components/signin/Signin'
 import Signup from './components/signup/Signup'
 import Home from './components/home/home'
-import Navbar from './components/navbar/Navbar'
+// import Navbar from './components/navbar/Navbar'
 // import Footer from './components/footer/Footer'
 import ProductDetails from './components/productDetails/ProductDetails'
 import Cart from './components/cart/Cart'
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="signin">
       <Router>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Routes>
           <Route path='/'  element={<Signin/>}/>
           <Route path='/Signup'  element={<Signup/>}/>

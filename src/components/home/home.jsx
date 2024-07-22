@@ -1,5 +1,5 @@
 import React from 'react'
-// import Navbar from '../navbar/Navbar';
+import Navbar from '../navbar/Navbar';
 import Menu from '../menu/Menu';
 // import Card from '../../cards/Card';
 import Mobile from '../products/mobiles/Mobile';
@@ -10,7 +10,7 @@ function Home() {
    
   return (
     <div className='home'>
-        {/* <Navbar/> */}
+        <Navbar/>
         <Menu/>
         <Mobile/>
         <Electronics/>

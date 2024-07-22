@@ -46,6 +46,7 @@ function Signup() {
     };
 
   return (
+    <div className="signup">
     <MDBContainer fluid className='my-5'>
         {userLoggedIn && (<Navigate to={'/Home'} replace={true}/>)}
       <MDBRow className='g-0 align-items-center'>
@@ -88,6 +89,7 @@ function Signup() {
       </MDBRow>
 
     </MDBContainer>
+    </div>
   );
 }
 
